@@ -10,6 +10,7 @@
         "standards"
     ],
     "require": {
+        "php": "^8.2",
         "maarsson/coding-standard": "^1.0",
         "phpmd/phpmd": "^2.15"
     },
