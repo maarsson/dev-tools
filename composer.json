@@ -1,0 +1,20 @@
+{
+    "name": "maarsson/dev-tools",
+    "description": "Development QA toolchain bundle for my projects",
+    "type": "metapackage",
+    "license": "MIT",
+    "keywords": [
+        "qa",
+        "dev",
+        "tools",
+        "standards"
+    ],
+    "require": {
+    },
+    "authors": [
+        {
+            "name": "VMaarsson",
+            "email": "viktor@maarsson.se"
+        }
+    ]
+}
