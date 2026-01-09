@@ -14,7 +14,7 @@ Installing this package will pull in:
 
 ## Requirements
 
-- PHP ^8.2
+- PHP ^8.4
 - Composer
 
 ---
