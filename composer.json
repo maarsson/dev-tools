@@ -1,0 +1,22 @@
+{
+    "name": "maarsson/dev-tools",
+    "description": "Development QA toolchain bundle for my projects",
+    "type": "metapackage",
+    "license": "MIT",
+    "keywords": [
+        "qa",
+        "dev",
+        "tools",
+        "standards"
+    ],
+    "require": {
+        "maarsson/coding-standard": "^1.0",
+        "phpmd/phpmd": "^2.15"
+    },
+    "authors": [
+        {
+            "name": "VMaarsson",
+            "email": "viktor@maarsson.se"
+        }
+    ]
+}
