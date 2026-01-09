@@ -10,6 +10,7 @@
         "standards"
     ],
     "require": {
+        "maarsson/coding-standard": "^1.0"
     },
     "authors": [
         {

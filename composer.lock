@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "363d16779c2b3e80f2f6d88b4582c039",
+    "packages": [
+        {
+            "name": "maarsson/coding-standard",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maarsson/coding-standard.git",
+                "reference": "ab7e1ed71a5b0f9d2ac0955b060929b900ffc024"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maarsson/coding-standard/zipball/ab7e1ed71a5b0f9d2ac0955b060929b900ffc024",
+                "reference": "ab7e1ed71a5b0f9d2ac0955b060929b900ffc024",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.2"
+            },
+            "bin": [
+                "bin/sync-coding-standards.php"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Maarsson\\CodingStandard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "VMaarsson",
+                    "email": "viktor@maarsson.se"
+                }
+            ],
+            "description": "Centralized custom coding standards applied among my projects",
+            "keywords": [
+                "qa",
+                "standards"
+            ],
+            "support": {
+                "issues": "https://github.com/maarsson/coding-standard/issues",
+                "source": "https://github.com/maarsson/coding-standard/tree/1.0.0"
+            },
+            "time": "2026-01-09T11:41:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
