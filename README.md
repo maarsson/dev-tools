@@ -8,13 +8,14 @@ This package is a Composer metapackage that installs a curated set of developmen
 Installing this package will pull in:
 
 - `phpmd/phpmd` – PHP Mess Detector
+- `squizlabs/php_codesniffer` – PHP Code Sniffer
 - `maarsson/coding-standard` – shared coding standards and sync tooling
 
 ---
 
 ## Requirements
 
-- PHP ^8.2
+- PHP ^8.4
 - Composer
 
 ---
