@@ -1,0 +1,30 @@
+name: Validate dev-tools bundle
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  smoke:
+    name: Consumer smoke test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          tools: composer
+
+      - name: Prepare path repo for consumer test
+        run: |
+          rm -rf /tmp/dev-tools-consumer-smoke
+          mkdir -p /tmp/dev-tools-consumer-smoke/repo
+          rsync -a --delete ./ /tmp/dev-tools-consumer-smoke/repo/
+
+      - name: Run dev-tools consumer smoke test
+        run: |
+          /tmp/dev-tools-consumer-smoke/repo/test/ci/consumer-smoke.sh
