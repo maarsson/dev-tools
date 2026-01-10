@@ -9,6 +9,7 @@ Installing this package will pull in:
 
 - `phpmd/phpmd` – PHP Mess Detector
 - `squizlabs/php_codesniffer` – PHP Code Sniffer
+- `friendsofphp/php-cs-fixer` – PHP CS Fixer
 - `maarsson/coding-standard` – shared coding standards and sync tooling
 
 ---
