@@ -1,4 +1,4 @@
-name: Validate dev-tools bundle
+name: Validate
 
 on:
   push:
