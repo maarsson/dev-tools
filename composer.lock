@@ -602,20 +602,26 @@
         },
         {
             "name": "maarsson/coding-standard",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maarsson/coding-standard.git",
-                "reference": "ab7e1ed71a5b0f9d2ac0955b060929b900ffc024"
+                "reference": "6239ae6ada35aa4fd7989efc703248fbb7d84f3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maarsson/coding-standard/zipball/ab7e1ed71a5b0f9d2ac0955b060929b900ffc024",
-                "reference": "ab7e1ed71a5b0f9d2ac0955b060929b900ffc024",
+                "url": "https://api.github.com/repos/maarsson/coding-standard/zipball/6239ae6ada35aa4fd7989efc703248fbb7d84f3f",
+                "reference": "6239ae6ada35aa4fd7989efc703248fbb7d84f3f",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.2"
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.92",
+                "phpmd/phpmd": "^2.15",
+                "slevomat/coding-standard": "^8.26",
+                "squizlabs/php_codesniffer": "^4.0"
             },
             "bin": [
                 "bin/sync-coding-standards.php"
@@ -636,16 +642,17 @@
                     "email": "viktor@maarsson.se"
                 }
             ],
-            "description": "Centralized custom coding standards applied among my projects",
+            "description": "Centralized custom coding standards applied across my projects",
             "keywords": [
+                "dev",
                 "qa",
                 "standards"
             ],
             "support": {
                 "issues": "https://github.com/maarsson/coding-standard/issues",
-                "source": "https://github.com/maarsson/coding-standard/tree/1.0.0"
+                "source": "https://github.com/maarsson/coding-standard/tree/1.2.0"
             },
-            "time": "2026-01-09T11:41:14+00:00"
+            "time": "2026-01-10T20:48:09+00:00"
         },
         {
             "name": "pdepend/pdepend",
