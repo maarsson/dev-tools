@@ -47,6 +47,7 @@ cat > composer.json <<'JSON'
 JSON
 
 info "Installing dependencies…"
+composer config --no-plugins allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
 composer install --no-interaction --prefer-dist
 
 info "Asserting PHPMD binary exists…"
